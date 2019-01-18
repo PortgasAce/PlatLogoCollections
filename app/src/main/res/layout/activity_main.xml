@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:paddingTop="8dp"
+  android:paddingLeft="8dp"
+  android:paddingRight="8dp"
+  android:orientation="vertical"
+  tools:context=".MainActivity"
+  tools:ignore="HardcodedText">
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="各版本PlatLogoActivity:"/>
+
+  <Button
+    android:id="@+id/p"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Pie"/>
+
+  <Button
+    android:id="@+id/o"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Oreo"/>
+
+  <Button
+    android:id="@+id/n"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Nougat"/>
+
+  <Button
+    android:id="@+id/m"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Marshmallow"/>
+
+  <Button
+    android:id="@+id/l"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Lollipop"/>
+
+  <Button
+    android:id="@+id/k"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="KitKat"/>
+
+  <Button
+    android:id="@+id/j"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="JellyBean"/>
+
+  <Button
+    android:id="@+id/g"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Gingerbread"/>
+
+</LinearLayout>
