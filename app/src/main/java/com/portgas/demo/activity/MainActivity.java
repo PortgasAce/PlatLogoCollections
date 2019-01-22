@@ -83,6 +83,20 @@ public class MainActivity extends AppCompatActivity {
       }
     });
 
+    findViewById(R.id.without_style).setOnClickListener(new OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        Intent intent = new Intent(MainActivity.this, PlatLogoActivityNoStyle.class);
+        startActivity(intent);
+      }
+    });
 
+    findViewById(R.id.with_style).setOnClickListener(new OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        Intent intent = new Intent(MainActivity.this, PlatLogoActivityStyle.class);
+        startActivity(intent);
+      }
+    });
   }
 }

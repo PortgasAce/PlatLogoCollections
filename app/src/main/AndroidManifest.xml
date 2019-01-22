@@ -61,6 +61,12 @@
       android:name=".PlatLogoActivityG"
       android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
 
+    <activity
+      android:name=".PlatLogoActivityNoStyle"/>
+    <activity
+      android:theme="@style/WallpaperTheme"
+      android:name=".PlatLogoActivityStyle"/>
+
   </application>
 
 </manifest>
