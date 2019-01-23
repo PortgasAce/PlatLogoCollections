@@ -63,13 +63,13 @@ public class PlatLogoActivityByManager extends Activity {
 
     mLayout = new FrameLayout(this);
     setContentView(mLayout);
-    setBackground();
+    mLayout.setBackground(getWallpaperDrawable());
   }
 
-  private void setBackground() {
+  private Drawable getWallpaperDrawable() {
+    Drawable wallpaperDrawable;
     PackageManager pm = getApplicationContext().getPackageManager();
     WallpaperManager wallpaperManager = WallpaperManager.getInstance(this);
-    Drawable wallpaperDrawable;
     if (wallpaperManager.getWallpaperInfo() != null) {
       /*
        * Wallpaper info is not equal to null, that is if the live wallpaper
@@ -85,7 +85,7 @@ public class PlatLogoActivityByManager extends Activity {
        */
       wallpaperDrawable = wallpaperManager.getDrawable();
     }
-    mLayout.setBackground(wallpaperDrawable);
+    return wallpaperDrawable;
   }
 
   @Override
