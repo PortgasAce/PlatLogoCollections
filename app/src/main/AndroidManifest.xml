@@ -63,9 +63,13 @@
 
     <activity
       android:name=".PlatLogoActivityNoStyle"/>
+
     <activity
       android:theme="@style/WallpaperTheme"
       android:name=".PlatLogoActivityStyle"/>
+
+    <activity
+      android:name=".PlatLogoActivityByManager"/>
 
   </application>
 

@@ -98,5 +98,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
       }
     });
+
+    findViewById(R.id.wallpaper_manager).setOnClickListener(new OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        Intent intent = new Intent(MainActivity.this, PlatLogoActivityByManager.class);
+        startActivity(intent);
+      }
+    });
   }
 }

@@ -85,13 +85,19 @@
       android:id="@+id/without_style"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="wallpaper background programmatically "/>
+      android:text="wallpaper background programmatically"/>
 
     <Button
       android:id="@+id/with_style"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="wallpaper background style "/>
+      android:text="wallpaper background style"/>
+
+    <Button
+      android:id="@+id/wallpaper_manager"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="wallpaper manager"/>
 
   </LinearLayout>
 </ScrollView>
